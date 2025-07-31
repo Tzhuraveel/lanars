@@ -61,5 +61,5 @@ environments/             # .env files for various environments
 After starting the project, Swagger is available at:
 
 ```
-http://localhost:3000/docs
+http://localhost:3500/docs
 ```
