@@ -1,0 +1,1 @@
+export const SKIP_RESPONSE_MAP = 'SKIP_RESPONSE_MAP';
