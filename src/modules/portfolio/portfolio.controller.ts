@@ -33,7 +33,7 @@ import { PortfolioServiceInterface } from './models/interfaces/portfolio-service
 
 @ApiBearerAuth()
 @Controller({ path: 'portfolios' })
-@ApiTags('Portfolio')
+@ApiTags('Portfolios')
 @UseGuards(AccessTokenGuard)
 export class PortfolioController {
   constructor(

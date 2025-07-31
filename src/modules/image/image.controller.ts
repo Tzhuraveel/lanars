@@ -19,7 +19,7 @@ import { IMAGE_SERVICE } from './models/constants/image.constants';
 import { FeedResponseDto } from './models/dtos/response/feed-response.dto';
 import { ImageServiceInterface } from './models/interfaces/image-service.interface';
 
-@ApiTags('Image')
+@ApiTags('Images')
 @ApiBearerAuth()
 @Controller({ path: 'images' })
 export class ImageController {
